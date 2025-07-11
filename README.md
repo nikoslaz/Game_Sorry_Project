@@ -37,3 +37,13 @@ A complete Java implementation of the classic "Sorry!" board game using Model-Vi
 | MenuDialog  | Game menu and options      |
 | WishDialog  | Special card interactions  |
 
+## 💻 How to Run
+
+### Clone the repository:
+```bash
+git clone https://github.com/yourusername/sorry-game.git
+
+Compile and run:
+javac src/*/*.java
+java src/view/GraphicUI
+
