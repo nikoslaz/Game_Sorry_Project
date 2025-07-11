@@ -20,17 +20,20 @@ A complete Java implementation of the classic "Sorry!" board game using Model-Vi
 - ✔️ Turn management
 - ✔️ Win condition detection
 
-## 🧩 Project Structure
+## 🎮 Controller
 
-### 📦 Packages
-src/
-├── model/ # Game logic and data
-│ ├── board/ # Board and square implementations
-│ ├── cards/ # Card classes and deck management
-│ ├── player/ # Player and pawn classes
-│ └── Turn.java # Turn management
-├── controller/ # Game flow and rules
-└── view/ # User interface components
-├── GraphicUI.java
-├── MenuDialog.java
-└── WishDialog.java
+- Manages game state transitions  
+- Validates player moves  
+- Handles card effects  
+- Controls turn flow  
+
+---
+
+## 🖥️ View Components
+
+| Class       | Purpose                    |
+|-------------|----------------------------|
+| GraphicUI   | Main game interface        |
+| MenuDialog  | Game menu and options      |
+| WishDialog  | Special card interactions  |
+
