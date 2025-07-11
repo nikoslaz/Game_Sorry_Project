@@ -1,7 +1,7 @@
 # 🎲 Sorry Board Game - Java Implementation
 
 ## 📌 Project Overview
-A complete Java implementation of the classic "Sorry!" board game using Model-View-Controller (MVC) architecture. Developed for the Object-Oriented Programming course at University of Crete.
+A complete Java implementation of the classic "Sorry!" board game using Model-View-Controller (MVC) architecture.
 
 ## 🎯 Features
 
